@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        div {
+            border:2px solid black;
+            padding:5px;
+            margin:5px;
+        }
+        div:nth-child(2n) {
+            background-color: brown;
+            color: white;
+        }
+        div:nth-child(2n+1) {
+            background-color: rgb(17, 223, 44);
+            color: white;
+        }
+
+        .c1 {
+            position:relative;
+        }
+        .c11 {
+            position:absolute;
+            bottom:30px;
+        }
+
+        .c2 {
+            position:absolute;
+            top:0px;
+        }
+        .c22 {
+            position:relative;
+            top:20px;
+        }
+
+        .c3 {
+            position:relative;
+        }
+        .c33 {
+            position:relative;
+        }
+
+        .c4 {
+            position:absolute;
+        }
+        .c44 {
+            position:absolute;
+            top:0px;
+        }
+
+    </style>
+</head>
+<body>
+    <h3>Relative Position</h3>
+    <p>An element with position: relative; is positioned relative to its normal position.</p>
+    <p>Setting the top, right, bottom, and left properties of a relatively-positioned element will cause it to be adjusted away from its normal position. Other content will not be adjusted to fit into any gap left by the element.</p>
+    <div class="c1">one
+        <div class="c11">one.1</div>
+        <div>one.2</div>
+    </div> 
+    <div class="c2">Two
+        <div>two.1</div>
+        <div class="c22">two.2</div>
+    </div> 
+    <div class="c3">Three
+        <div class="c33">three.1</div>
+        <div>three.2</div>
+    </div> 
+    <div class="c4">Four
+        <div class="c44">four.1</div>
+    </div> 
+    <div class="c5">Five</div> 
+    <div class="c6">Six</div> 
+</body>
+</html>

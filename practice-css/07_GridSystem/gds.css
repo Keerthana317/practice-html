@@ -1,0 +1,13 @@
+section, div {
+    border:2px solid brown;
+    padding:10px;
+    margin-bottom:10px;
+    display:grid;
+    grid-template-rows: 210px 210px 210px;
+    grid-template-columns: 370px 370px 370px 370px ;
+    margin-right:25px;
+    padding:20px;
+}
+section div {
+    border:2px solid brown;
+}

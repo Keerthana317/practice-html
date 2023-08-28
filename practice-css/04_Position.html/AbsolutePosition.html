@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        div {
+            border:2px solid black;
+            padding:5px;
+            margin:5px;
+        }
+        div:nth-child(2n) {
+            background-color: brown;
+            color: white;
+        }
+        div:nth-child(2n+1) {
+            background-color: rgb(17, 223, 44);
+            color: white;
+        }
+        div:nth-child(4) {
+            position:absolute;
+            top:95px;
+        }
+    </style>
+</head>
+<body>
+    <h3>Absolute Position</h3>
+    <p>An element with "position:absolute" is positioned relative to the nearest positioned ancestor (instead of positioned relative to the viewport, like fixed).</p>
+    <p>The element changes to block level to inline.</p>
+    <div class="c1">One</div> 
+    <div class="c2">Two</div> 
+    <div class="c3">Three</div> 
+    <div class="c4">Four</div> 
+    <div class="c5">Five</div> 
+    <div class="c6">Six</div> 
+</body>
+</html>

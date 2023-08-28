@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <style>
+        div {
+            border:2px solid blue;
+            padding:5px;
+            margin:5px;
+            background-color:aqua;
+        }
+        div:nth-child(5) {
+            position:relative;
+            top:0px;
+            z-index:-1;
+        }
+        div:nth-child(6) {
+            position:absolute;
+            top:0px;
+            z-index:1;  
+        }
+        div:nth-child(7) {
+            position:absolute;
+            top:90px;
+            z-index:-1;
+        }
+    </style>
+</head>
+<body>
+    <h3>z-index position</h3>
+    <p>The z-index property specifies the stack order of an element. An element with greater stack order is always in front of an element with a lower stack order.</p>
+    <p>If two positioned elements overlap without a z-index specified, the element positioned last in the HTML code will be shown on top. </p>
+    <div>one</div>
+    <div>two</div>
+    <div>three</div>
+    <div>four</div>
+    <p>z-index:1; ==  background text or image will not visible.</p>
+    <p>z-index:-1; ==  background text or image will be visible.</p>
+</body>
+</html>
