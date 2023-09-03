@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <style>
+        *{
+           text-align: center;
+        }
+        body{
+            margin:0px;
+            padding:0px;
+            background-color:black;
+            height:100vh;
+            overflow:hidden;
+        }
+        .c1{
+            display:flex;
+            flex:1;
+            font-size:xx-large;
+            line-height: 10px;
+            justify-content: center;
+            position:relative;
+            top:15px;
+        
+        }
+        [value="Continue"]{
+            padding:15px;
+            margin:10px;
+            background-color:darkblue;
+            border:2px solid darkblue;
+            color:white;
+            padding-left: 90px;
+            padding-right:90px;
+        }
+        section{
+            position:absolute;
+            top:50%;
+            left:50%;
+            transform:translate(-50%,-50%);
+            width:400px;
+            background-color: white;
+            border-radius:10px;
+        }
+        .c2{
+            font-size:large;
+            position:relative;
+            top:20px;
+        }
+        input{
+            margin:10px;
+            width:320px;
+            padding:10px;
+        }
+        h4{
+            color:darkblue;
+        }
+
+
+    </style>
+</head>
+<body>
+    <section>
+    <div class="c1">
+        <img src="../Assignment3/digitallync_logo.jpeg" width="70px" height="70px">
+        <p><b>Digital </b>Lync</p>   
+    </div>
+    <div class="c2"><strong font-size="xx-large">Welcome</strong>
+    <p>Log in to Digital Lync to continue to Digital Lync LMS.</p>
+    <input type="email" placeholder="Email address"></div><br>
+    <input type="password" placeholder="password"></div>
+    <h4>Forget password?</h4>
+    <input type="button" value="Continue">   
+    </section> 
+</body>
+</html>
