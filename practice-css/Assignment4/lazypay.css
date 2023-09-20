@@ -1,0 +1,42 @@
+section{
+    background-color:rgb(110, 107, 107);
+    background-size: cover;
+}
+.c1{
+    background-color: white;
+    width:550px;
+    height:750px;
+    transform: translate(100%,0px);
+    text-align: center;
+}
+#id1{
+    background-color: rgb(194, 38, 64);
+    padding-top: 70px;
+    width:400px;
+    margin-left: 68px;
+    color: white;
+    font-size: x-large;
+    border-radius: 15px;
+}
+.c2{
+    position:relative;
+    right:130px;
+    margin-bottom:30px;
+    font-size:x-large;
+}
+[src="../Assignment4/Task2Logo.jpg"]{
+    position: relative;
+    top:20px;
+}
+#id1 [src="../Assignment4/gt.png"]{
+    padding-top: 40px;
+    width:200px;
+    height:100px;
+    position: relative;
+    right:80px;
+    transform:skew(4deg,28deg);
+    text-shadow: 20px;
+}
+footer{
+    padding-top:40px;
+}
