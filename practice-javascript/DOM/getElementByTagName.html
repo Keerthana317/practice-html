@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+</head>
+<body>
+    <div>
+        <ul>
+            <li>listOne</li>
+            <li>listTwo</li>
+            <li>listThree</li>
+            <li>listFour</li>
+        </ul>
+    </div>
+    <script>
+        var v=document.getElementsByTagName("li")
+        console.log(v)
+
+        for(var i=0;i<v.length;i++){
+            v[0].style.fontSize="larger"
+            v[1].style.fontStyle="italic"
+            v[2].style.backgroundColor="green"
+            v[3].style.fontFamily="cursive"
+        }
+    </script>
+</body>
+</html>
