@@ -1,0 +1,22 @@
+.navbar-logo{
+    font-size: 50px;
+    font-weight: bold;
+    color:rgb(218, 53, 81);
+    text-decoration: none;
+}
+.btn{
+    background-color: rgb(203, 43, 70);
+    color: white;
+    border-radius: 70px;
+    width:160px;
+    text-align: center;
+    margin-left: 40px;
+}
+.dropdown-menu{
+    background-color:  rgb(203, 43, 70);
+}
+.dropdown-item{
+    color: white;
+    font-size: 15px;
+    font-weight: 900;
+}

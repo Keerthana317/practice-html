@@ -1,0 +1,330 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.navbar-logo{
+    font-size: 50px;
+    font-weight: bold;
+    color:rgb(218, 53, 81);
+    text-decoration: none;
+}
+#navbarNavMenu{
+    box-sizing: border-box;
+    background-size: cover;
+    float:right;
+    color:black;
+    position:relative;
+    left:550px;
+    margin-left: 40px;
+}
+
+.nav-item1{
+    margin-left: 40px;
+}
+
+.nav-item2{
+    margin-left: 40px;
+}
+
+.nav-item3{
+    margin-left: 40px;
+}
+.nav-item4{
+    background-color: rgb(203, 43, 70);
+    color: white;
+    border-radius: 70px;
+    width:160px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+
+[value="button1"]{
+    border-color:rgb(203, 43, 70);
+    background-color: rgb(203, 43, 70);
+    color: white;
+    border-radius: 70px;
+    margin-top: 10px;
+    padding:10px;
+}
+[value="button2"]{
+    border-color:rgb(203, 43, 70);
+    background-color: rgb(203, 43, 70);
+    color: white;
+    border-radius: 70px;
+    margin-top: 10px;
+    padding:10px;
+}
+.bodycol1{
+   height:550px;
+   transform: translate(55%,20%);
+   width:350px;
+}
+strong{
+    color:rgb(203, 43, 70);
+}
+.bodycol2{
+    transform: translate(25%,0%);
+}
+
+
+.bolrow2 {
+    background-color: #F4F4F4;
+}
+.lms{
+    border-color: white;
+    background-color: white;
+    border-radius: 20px;
+    margin:95px 15px 90px 80px;
+    position: relative;
+    left:40px;
+    width:350px;
+    height:400px;
+}
+[src="https://www.konalms.com/images/lms_img1.jpg"]{
+    margin:15px 15px 15px 15px;
+    border-radius: 20px;
+}
+.education{
+    border-color: white;
+    background-color: white;
+    margin:95px 15px 90px 80px;
+    margin-left: 70px;
+    border-radius: 20px;
+    position: relative;
+    left:40px;
+    width:350px;
+    height:400px;
+}
+[src="https://www.konalms.com/images/lms_img2.jpg"]{
+    margin:15px 15px 15px 15px;
+    border-radius: 20px;
+}
+
+.institution{
+    border-color:white;
+    background-color: white;
+    margin:95px 15px 90px 80px;
+    border-radius: 20px;
+    margin-left: 70px;
+    position: relative;
+    left:40px;
+    width:350px;
+    height:400px;
+}
+[src="https://www.konalms.com/images/lms_img3.jpg"]{
+    margin:15px 15px 15px 15px;
+    border-radius: 20px;
+}
+a{
+    color:rgb(203, 43, 70);
+    text-decoration: none;
+}
+
+.features{
+    width:500px;
+    text-align: center;
+    margin:100px  500px;
+}
+.icons1{
+    margin:0px 20px 10px 100px;
+}
+.icons2{
+    margin:0px 20px 10px 100px;
+}
+.bb1{
+    border-color:rgb(203, 43, 70);
+    background-color: rgb(203, 43, 70);
+    color: white;
+    width:170px;
+    border-radius: 70px;
+    margin: 10px 700px 10px;
+    padding:10px;
+}
+
+
+.konalms{
+    background-color: #F4F4F4;
+    height:700px;
+}
+.konalms1{
+    position:relative;
+    top:250px;
+    left:670px;
+    width:200px;
+    padding:70px 20px 70px 35px;
+    background-color: white;
+    border-radius:100%;
+    box-shadow:0px 0px 15px #95959526;
+}
+
+
+.psh1{
+    position: relative;
+    left:380px;
+    bottom:20px;
+}
+.psh2{
+    position:relative;
+    left:1050px;
+    bottom:420px;
+}
+/*.konalms{
+    background: url(../images/product_solutionbg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+}*/
+.klmsc11{
+    position:relative;
+    top:10px;
+    left:420px;
+    width:40px;
+    padding:20px 70px 20px 20px;
+    background-color: white;
+    border-radius:100%;
+    box-shadow:0px 0px 15px #78787826;
+}
+.c11name{
+    font-size:medium;
+    position:relative;
+    top:20px;
+    left:440px;
+}
+.klmsc12{
+    position:relative;
+    top:30px;
+    left:270px;
+    width:40px;
+    padding:20px 70px 20px 20px;
+    background-color: white;
+    border-radius:100%;
+    box-shadow:0px 0px 15px #95959526;
+}
+.c12name{
+    font-size:medium;
+    position:relative;
+    top:35px;
+    left:240px;
+}
+.klmsc13{
+    position:relative;
+    top:-90px;
+    left:550px;
+    width:40px;
+    padding:20px 70px 20px 20px;
+    background-color: white;
+    border-radius:100%;
+    box-shadow:0px 0px 15px #95959526;
+}
+.c13name{
+    font-size:medium;
+    position:relative;
+    top:-85px;
+    left:550px;
+}
+.klmsc21{
+    position:relative;
+    top:-390px;
+    left:950px;
+    width:40px;
+    padding:20px 70px 20px 20px;
+    background-color: white;
+    border-radius:100%;
+    box-shadow:0px 0px 15px #95959526;
+}
+.c21name{
+    font-size:medium;
+    position:relative;
+    top:-380px;
+    left:930px;
+}
+.klmsc22{
+    position:relative;
+    top:-513px;
+    left:1150px;
+    width:40px;
+    padding:20px 70px 20px 20px;
+    background-color: white;
+    border-radius:100%;
+    box-shadow:0px 0px 15px #95959526;
+}
+.c22name{
+    font-size:medium;
+    position:relative;
+    top:-503px;
+    left:1130px;
+}
+.klmsc23{
+    position:relative;
+    top:-480px;
+    left:950px;
+    width:40px;
+    padding:20px 70px 20px 20px;
+    background-color: white;
+    border-radius:100%;
+    box-shadow:0px 0px 15px #95959526;
+}
+.c23name{
+    font-size:medium;
+    position:relative;
+    top:-470px;
+    left:920px;
+}
+.klmsc24{
+    position:relative;
+    top:-600px;
+    left:1150px;
+    width:40px;
+    padding:20px 70px 20px 20px;
+    background-color: white;
+    border-radius:100%;
+    box-shadow:0px 0px 15px #95959526;
+}
+.c24name{
+    font-size:medium;
+    position:relative;
+    top:-590px;
+    left:1130px;
+}
+
+
+.getfreedemo{  
+    background:url("https://www.konalms.com/images/startbg.jpg") rgb(238, 61, 91);
+    background-repeat:no-repeat;
+    background-position: center;
+}
+.gfdh{
+    color:white;
+    width:320px;
+    text-align: center;
+    position:relative;
+    left:620px;
+    margin-bottom:20px;
+    margin-top: 40px;
+}
+.gfd{
+    background-color: white;
+    border-color: white;
+    width:170px;
+    border-radius: 70px;
+    margin: 10px 700px 10px;
+    padding:10px;
+    margin-bottom:40px;
+}
+
+
+.ourclinets{
+    text-align: center;
+    margin:50px 30px 50px 70px;
+    height:10px;
+}
+
+.footer{
+    background-color:  #F4F4F4;
+}
+.ftrkona{
+    margin-left:90px;
+}
+[type="none"]{
+    margin-left:90px;
+}
+
+
