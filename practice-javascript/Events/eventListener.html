@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+    </head>
+    <body>
+
+        <h2>Add Event Listener</h2>
+        <button id="btn_one">Click</button>
+
+        <script>
+            var btn = document.getElementById("btn_one");
+            btn.addEventListner("click",function(){alert("event one")})
+
+            var btn = document.getElementById("btn_one");
+            btn.addEventListner("click",()=>{alert("event two")})
+
+            function f1(){
+                l1=[10,20,30,40,50]
+                document.write(l1.length)
+            }
+
+            var v1 = document.getElementById("btn_one");
+            v1.addEventListner("click",()=>{f1()})
+        </script>
+    
+    </body>
+</html>

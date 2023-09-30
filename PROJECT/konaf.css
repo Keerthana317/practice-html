@@ -6,69 +6,66 @@
     color:#E9204F;
     text-decoration: none;
     position:relative;
-    left:80px;
+    left:200px;
 }
 .dropdown-menu{
     background-color:#E9204F; 
+    box-sizing: border-box;
+    background-size: cover;
+    margin-left: 40px;
 }
 .dropdown-item{
     color:white;
 }
 #navbarDropdown{
-    padding-left:20px;
-}
-.nav-item{
-    padding-left:20px;
+    padding-left: 40px;
 }
 .d-flex{
-    padding-left:20px;
+    padding-left: 40px;
 }
 .btn{
     background-color: #E9204F;
-    padding:7px;
-    border-radius:35px;
+    padding:10px;
+    border-radius: 35px;
     width:150px;
     color:white;
 }
 .collapse{
     position: relative;
-    right:100px;
+    right:200px;
 }
-
-
 
 
 [value="button1"]{
-    border-color: #E9204F;
-    background-color: #E9204F;
+    border-color:#E9204F;
+    background-color:#E9204F;
+    color: white;
+    border-radius: 70px;
     padding:10px;
-    border-radius:35px;
-    width:120px;
-    color:white;
 }
 [value="button2"]{
-    border-color: #E9204F;
+    border-color:#E9204F;
     background-color: #E9204F;
+    color: white;
+    border-radius: 70px;
     padding:10px;
-    border-radius:35px;
-    width:180px;
-    color:white;
 }
 .bodycol1{
    height:500px;
-   width:350px;
-   padding-top:240px;
    position:relative;
-   left:64px;  
+   left:100px;
+   top:100px;
+   width:350px;
+   padding-top:110px;
 }
 strong{
     color:#E9204F;
 }
 .bodycol2{
-    padding-top:70px;
-    width:750px;
-    position:relative; 
-    left:80px;
+    position:relative;
+    left:120px;
+    background-attachment: fixed;
+    padding-top: 120px;
 }
 
 
@@ -77,12 +74,17 @@ strong{
 .bolrow2 {
     background-color: #F4F4F4;
 }
+.bolrow21{
+    padding-left:80px;
+    padding-top:8px;
+}
 .lms{
     border-color: white;
     background-color: white;
     border-radius: 20px;
-    margin-left: 70px;
-    margin:95px 15px 90px 80px;
+    margin:95px 15px 90px 40px;
+    position: relative;
+    left:60px;
     width:350px;
     height:400px;
 }
@@ -93,9 +95,10 @@ strong{
 .education{
     border-color: white;
     background-color: white;
-    margin-left: 70px;
+    margin:95px 15px 90px 40px;
     border-radius: 20px;
-    margin:95px 15px 90px 80px;
+    position: relative;
+    left:45px;
     width:350px;
     height:400px;
 }
@@ -107,9 +110,10 @@ strong{
 .institution{
     border-color:white;
     background-color: white;
-    margin:95px 15px 90px 80px;
+    margin:95px 15px 90px 40px;
     border-radius: 20px;
-    margin-left: 70px;
+    position: relative;
+    left:40px;
     width:350px;
     height:400px;
 }
@@ -122,71 +126,70 @@ a{
     text-decoration: none;
 }
 
+
+
 .features{
-    width:500px;
-    text-align: center;
-    margin:100px  500px;
+    width:600px;
+    text-align:center;
+    padding:40px;
+}
+.heading{
+    position: relative;
+    left:380px;
 }
 .icons1{
-    padding:10px;
-    padding-left:150px;
+    padding-left:90px;
 }
 .icons1 p{
-    width:350px;
+    width:330px;
 }
 .icons2{
-    padding:10px;
-    padding-left:150px;
+    padding-left:90px;
+    padding-bottom:50px;
 }
 .icons2 p{
-    width:350px;
+    width:330px;
 }
 .bb1{
-    border-color:rgb(203, 43, 70);
-    background-color: rgb(203, 43, 70);
     color: white;
-    width:170px;
-    border-radius: 70px;
-    margin: 10px 700px 10px;
+    border-color: #E9204F;
+    background-color: #E9204F;
     padding:10px;
+    border-radius:35px;
+    width:150px;
+    position: relative;
+    left:600px;
 }
 
 
 .konalms{
     background-color: #F4F4F4;
-    height:700px;
+    margin-top:50px;
 }
-.konalms1{
+/*.konalms1{
     position:relative;
     top:250px;
-    left:670px;
+    left:430px;
     width:200px;
-    padding:70px 20px 70px 35px;
+    padding:20px 20px 20px 35px;
     background-color: white;
-    border-radius:100%;
-    box-shadow:0px 0px 15px #95959526;
-}
-
-
+    border-radius: 100%;
+    box-shadow:0px 0px 15px #78787826;
+}*/
 .psh1{
     position: relative;
-    left:380px;
-    bottom:20px;
+    left:240px;
+    top:40px;
 }
 .psh2{
     position:relative;
-    left:1050px;
+    left:940px;
     bottom:420px;
 }
-/*.konalms{
-    background: url(../images/product_solutionbg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-}*/
 .klmsc11{
     position:relative;
     top:10px;
-    left:420px;
+    left:280px;
     width:40px;
     padding:20px 70px 20px 20px;
     background-color: white;
@@ -197,12 +200,12 @@ a{
     font-size:medium;
     position:relative;
     top:20px;
-    left:440px;
+    left:300px;
 }
 .klmsc12{
     position:relative;
     top:30px;
-    left:270px;
+    left:130px;
     width:40px;
     padding:20px 70px 20px 20px;
     background-color: white;
@@ -213,12 +216,12 @@ a{
     font-size:medium;
     position:relative;
     top:35px;
-    left:240px;
+    left:100px;
 }
 .klmsc13{
     position:relative;
     top:-90px;
-    left:550px;
+    left:410px;
     width:40px;
     padding:20px 70px 20px 20px;
     background-color: white;
@@ -229,12 +232,12 @@ a{
     font-size:medium;
     position:relative;
     top:-85px;
-    left:550px;
+    left:410px;
 }
 .klmsc21{
     position:relative;
     top:-390px;
-    left:950px;
+    left:810px;
     width:40px;
     padding:20px 70px 20px 20px;
     background-color: white;
@@ -245,12 +248,12 @@ a{
     font-size:medium;
     position:relative;
     top:-380px;
-    left:930px;
+    left:790px;
 }
 .klmsc22{
     position:relative;
     top:-513px;
-    left:1150px;
+    left:1010px;
     width:40px;
     padding:20px 70px 20px 20px;
     background-color: white;
@@ -261,12 +264,12 @@ a{
     font-size:medium;
     position:relative;
     top:-503px;
-    left:1130px;
+    left:990px;
 }
 .klmsc23{
     position:relative;
     top:-480px;
-    left:950px;
+    left:810px;
     width:40px;
     padding:20px 70px 20px 20px;
     background-color: white;
@@ -277,12 +280,12 @@ a{
     font-size:medium;
     position:relative;
     top:-470px;
-    left:920px;
+    left:780px;
 }
 .klmsc24{
     position:relative;
     top:-600px;
-    left:1150px;
+    left:1010px;
     width:40px;
     padding:20px 70px 20px 20px;
     background-color: white;
@@ -293,49 +296,58 @@ a{
     font-size:medium;
     position:relative;
     top:-590px;
-    left:1130px;
+    left:990px;
 }
 
 
-.getfreedemo{  
+.getfreedemo1{  
     background:url("https://www.konalms.com/images/startbg.jpg") rgb(238, 61, 91);
     background-repeat:no-repeat;
     background-position: center;
+    background-size: cover;
+    height:300px;
+    padding-top:40px;
 }
 .gfdh{
     color:white;
-    width:320px;
+    padding:50px;
     text-align: center;
+    width:500px;
     position:relative;
-    left:620px;
-    margin-bottom:20px;
-    margin-top: 40px;
+    left:490px;
+
 }
 .gfd{
     background-color: white;
     border-color: white;
     width:170px;
     border-radius: 70px;
-    margin: 10px 700px 10px;
     padding:10px;
     margin-bottom:40px;
+    position: relative;
+    left:650px;
 }
 
 
 .ourclinets{
     text-align: center;
-    margin:50px 30px 50px 70px;
-    height:10px;
+    height:200px;
 }
+
 
 .footer{
     background-color:  #F4F4F4;
+    padding-top:50px;
 }
 .ftrkona{
-    margin-left:90px;
+    padding-left:90px;
 }
 [type="none"]{
-    margin-left:90px;
+    padding-left:80px;
 }
+.item{
+    padding:5px;
+}
+
 
 
