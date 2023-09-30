@@ -36,6 +36,7 @@
 }
 
 
+
 [value="button1"]{
     border-color:#E9204F;
     background-color:#E9204F;
@@ -49,11 +50,12 @@
     color: white;
     border-radius: 70px;
     padding:10px;
+    width:120px;
 }
 .bodycol1{
    height:500px;
    position:relative;
-   left:100px;
+   left:90px;
    top:100px;
    width:350px;
    padding-top:110px;
@@ -320,6 +322,7 @@ a{
 .gfd{
     background-color: white;
     border-color: white;
+    color:black;
     width:170px;
     border-radius: 70px;
     padding:10px;
@@ -347,6 +350,16 @@ a{
 }
 .item{
     padding:5px;
+}
+
+input{
+    width:450px;
+    height:40px;
+    border-color: #95959526;
+}
+#exampleModalLabel{
+    font-size:20px;
+    font-weight: bold;
 }
 
 
